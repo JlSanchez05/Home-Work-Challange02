@@ -75,7 +75,7 @@ footer nav ul li a {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
-  background-image: url(/images-challenge2/backgroundforhero.jpeg);
+  background-image: url(./images-challenge2/backgroundforhero.jpeg);
 }
 .container-cool-subtitle {
   display: flex;
