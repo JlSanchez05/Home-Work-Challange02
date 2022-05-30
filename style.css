@@ -14,25 +14,17 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-header div {
-  background-color: rgb(96, 165, 194);
-  width: 500px;
-}
+
 header h1 {
-  font-weight: bold;
+  background-color: rgb(149, 149, 193);
+  color: white;
+  padding-top: 5px;
   font-size: 36px;
-  margin: 0;
-  margin-left: 240px;
-  margin-top: 30px;
-  color: white;
-}
-header a {
-  color: white;
+  padding-left: 100px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
-header nav {
-  margin: 7px 0;
-}
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -40,104 +32,70 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
+
 header nav ul li a {
-  padding: 10px 15px;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.9vw;
+  color: white;
+}
+
+footer {
+  padding: 20px 35px;
+  background-color: rgb(90, 90, 131);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer h2 {
+  color: white;
+  font-size: 36px;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer nav ul li a {
+  margin: 0 30px;
   font-weight: lighter;
   font-size: 1.55vw;
+  color: white;
 }
+
 .background-container {
   width: 100%;
-
   height: 200px;
-  flex: wrap;
-  background-color: lightblue;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
 }
-
-.cool-subtitle {
-  height: 100px;
-  width: 200px;
-  border: solid 3px black;
-  flex: wrap;
-  align-items: flex-end;
+.container-cool-subtitle {
+  display: flex;
+  margin: 10px;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+  justify-content: center;
+  background-color: rgb(90, 90, 131);
+  padding-top: 5px;
+}
+.container-cool-subtitle h2 {
+  color: white;
+  font-size: 35px;
 }
 
 .about-me-container {
-  height: 300px;
-  border: solid 2px black;
-  flex: wrap;
+  display: flex;
   justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-.heading-primary {
-  font-size: 30px;
-}
-.info-me1 {
-  width: 1100px;
-  position: absolute;
-  left: 500px;
-}
-.text1 {
-  padding-bottom: 20px;
-}
-
-.work-container {
-  width: 100%;
-  border: solid black 2px;
-  height: 800px;
-  position: relative;
-}
-.work-container h2 {
-  position: absolute;
-  top: 20px;
-  left: 520px;
-}
-.surf-report {
-  border: solid black 2px;
-  width: 900px;
-  position: absolute;
-  left: 700px;
-  height: 400px;
-}
-
-.led-wall {
-  border: solid black 2px;
-  position: absolute;
-  bottom: 200px;
-  left: 699px;
-  height: 150px;
-  width: 440px;
-}
-.pastel-puzzels {
-  border: solid black 2px;
-  position: absolute;
-  bottom: 200px;
-  left: 1150px;
-  height: 150px;
-  width: 450px;
-}
-
-.calculator {
-  border: solid black 2px;
-  position: absolute;
-  bottom: 43px;
-  left: 699px;
-  height: 150px;
-  width: 440px;
-}
-.run-buddy {
-  border: solid black 2px;
-  position: absolute;
-  bottom: 43px;
-  left: 1150px;
-  height: 150px;
-  width: 450px;
-}
-footer ul li {
-  display: inline;
-}
-
-footer ul li a {
-  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
