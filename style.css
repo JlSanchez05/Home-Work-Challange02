@@ -75,6 +75,7 @@ footer nav ul li a {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
+  background-image: url(/images-challenge2/backgroundforhero.jpeg);
 }
 .container-cool-subtitle {
   display: flex;
@@ -98,4 +99,142 @@ footer nav ul li a {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.heading-primary1 {
+  flex-wrap: wrap;
+  font-size: 32px;
+  border-right: solid black 4px;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+.aboutme-p {
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1600px;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.work-container {
+  height: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.heading-primary2 {
+  flex-wrap: wrap;
+  font-size: 32px;
+  border-right: solid black 4px;
+  margin-left: 157px;
+  margin-top: 25px;
+}
+.surf-report-container {
+  width: 1500px;
+  height: 1000px;
+}
+
+.surf-report {
+  width: 1200px;
+  border: solid 4px grey;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: url(/images-challenge2/cloud.jpeg);
+}
+.surf-report h3 {
+  position: absolute;
+  bottom: 30px;
+  background-color: rgb(149, 149, 193);
+  color: white;
+  padding: 20px;
+}
+.pair-one {
+  width: 1200px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+}
+.led-wall {
+  border: solid 4px grey;
+  width: 590px;
+  height: 200px;
+  background-image: url(/images-challenge2/pastel.png);
+  background-position: center;
+}
+.led-wall h3 {
+  background-color: rgb(149, 149, 193);
+  padding: 20px;
+  width: 150px;
+  display: inline;
+  position: absolute;
+  bottom: 30px;
+  color: white;
+}
+
+.pastel-puzzels {
+  width: 590px;
+  border: solid 4px grey;
+  height: 200px;
+  position: relative;
+  background-image: url(/images-challenge2/forPastel.png);
+  background-position: center;
+}
+.pastel-puzzels h3 {
+  background-color: rgb(149, 149, 193);
+  padding: 20px;
+  width: 180px;
+  display: inline;
+  position: absolute;
+  bottom: 30px;
+  color: white;
+}
+
+.pair-two {
+  width: 1200px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.calculator {
+  width: 590px;
+  border: solid 4px grey;
+  height: 200px;
+  background-image: url(/images-challenge2/calculator.png);
+}
+.calculator h3 {
+  background-color: rgb(149, 149, 193);
+  padding: 20px;
+
+  display: inline;
+  position: absolute;
+  bottom: 30px;
+  color: white;
+}
+
+.run-buddy {
+  width: 590px;
+  border: solid 4px grey;
+  height: 200px;
+  background-image: url(/images-challenge2/Screen\ Shot\ 2022-05-30\ at\ 4.28.14\ PM.png);
+}
+
+.run-buddy h3 {
+  background-color: rgb(149, 149, 193);
+  padding: 20px;
+  width: 180px;
+  display: inline;
+  position: absolute;
+  bottom: 30px;
+  color: white;
 }
